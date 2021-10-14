@@ -119,3 +119,8 @@ Swin-Transformer-Object-Detection/work_dirs/
 Swin-Transformer-Object-Detection/*.pth
 Swin-Transformer-Object-Detection/*.py~
 Swin-Transformer-Object-Detection/*.sh~
+Swin-Transformer-Object-Detection/*/*.pyc
+Swin-Transformer-Object-Detection/*/*/*.pyc
+Swin-Transformer-Object-Detection/*/*/*/*.pyc
+Swin-Transformer-Object-Detection/*/*/*/*/*.pyc
+Swin-Transformer-Object-Detection/*/*/*/*/*/*.pyc
