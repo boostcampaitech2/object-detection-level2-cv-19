@@ -1,0 +1,8 @@
+train:
+python train.py ../dataset --model tf_efficientdet_d4_ap --dataset trash -b 8 --amp --lr .003 --opt momentum --warmup-epochs 1 --model-ema --model-ema-decay 0.9966 --epochs 10 --num-classes 10 --initial-checkpoint output/train/20211010-064306-tf_efficientdet_d4_ap/checkpoint-50.pth.tar
+
+val:
+python validate.py ../dataset --model tf_efficientdet_d4_ap --dataset trash --split test --num-gpu 1 -b 64 --use-ema --amp --checkpoint output/train/20211013-084207-tf_efficientdet_d4_ap/checkpoint-9.pth.tar --num-classes 10 --img-size 512 --results result512.json
+
+test:
+python validate.py ../dataset --model efficientdet_d0 --dataset trash --split test --num-gpu 1 -b 64 --checkpoint output/train/20211008-113935-efficientdet_d0/model_best.pth.tar --num-classes 10 --results result.bbox.json
