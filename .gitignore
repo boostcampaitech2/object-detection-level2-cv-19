@@ -1,0 +1,121 @@
+# Byte-compiled / optimized / DLL files
+Swin-Transformer-Object-Detection/__pycache__/
+Swin-Transformer-Object-Detection/*.py[cod]
+Swin-Transformer-Object-Detection/*$py.class
+
+# C extensions
+Swin-Transformer-Object-Detection/*.so
+
+# Distribution / packaging
+Swin-Transformer-Object-Detection/.Python
+Swin-Transformer-Object-Detection/build/
+Swin-Transformer-Object-Detection/develop-eggs/
+Swin-Transformer-Object-Detection/dist/
+Swin-Transformer-Object-Detection/downloads/
+Swin-Transformer-Object-Detection/eggs/
+Swin-Transformer-Object-Detection/.eggs/
+Swin-Transformer-Object-Detection/lib/
+Swin-Transformer-Object-Detection/lib64/
+Swin-Transformer-Object-Detection/parts/
+Swin-Transformer-Object-Detection/sdist/
+Swin-Transformer-Object-Detection/var/
+Swin-Transformer-Object-Detection/wheels/
+Swin-Transformer-Object-Detection/*.egg-info/
+Swin-Transformer-Object-Detection/.installed.cfg
+Swin-Transformer-Object-Detection/*.egg
+Swin-Transformer-Object-Detection/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+Swin-Transformer-Object-Detection/*.manifest
+Swin-Transformer-Object-Detection/*.spec
+
+# Installer logs
+Swin-Transformer-Object-Detection/pip-log.txt
+Swin-Transformer-Object-Detection/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+Swin-Transformer-Object-Detection/htmlcov/
+Swin-Transformer-Object-Detection/.tox/
+Swin-Transformer-Object-Detection/.coverage
+Swin-Transformer-Object-Detection/.coverage.*
+Swin-Transformer-Object-Detection/.cache
+Swin-Transformer-Object-Detection/nosetests.xml
+Swin-Transformer-Object-Detection/coverage.xml
+Swin-Transformer-Object-Detection/*.cover
+Swin-Transformer-Object-Detection/.hypothesis/
+Swin-Transformer-Object-Detection/.pytest_cache/
+
+# Translations
+Swin-Transformer-Object-Detection/*.mo
+Swin-Transformer-Object-Detection/*.pot
+
+# Django stuff:
+Swin-Transformer-Object-Detection/*.log
+Swin-Transformer-Object-Detection/local_settings.py
+Swin-Transformer-Object-Detection/db.sqlite3
+
+# Flask stuff:
+Swin-Transformer-Object-Detection/instance/
+Swin-Transformer-Object-Detection/.webassets-cache
+
+# Scrapy stuff:
+Swin-Transformer-Object-Detection/.scrapy
+
+# Sphinx documentation
+Swin-Transformer-Object-Detection/docs/_build/
+
+# PyBuilder
+Swin-Transformer-Object-Detection/target/
+
+# Jupyter Notebook
+Swin-Transformer-Object-Detection/.ipynb_checkpoints
+
+# pyenv
+Swin-Transformer-Object-Detection/.python-version
+
+# celery beat schedule file
+Swin-Transformer-Object-Detection/celerybeat-schedule
+
+# SageMath parsed files
+Swin-Transformer-Object-Detection/*.sage.py
+
+# Environments
+Swin-Transformer-Object-Detection/.env
+Swin-Transformer-Object-Detection/.venv
+Swin-Transformer-Object-Detection/env/
+Swin-Transformer-Object-Detection/venv/
+Swin-Transformer-Object-Detection/ENV/
+Swin-Transformer-Object-Detection/env.bak/
+Swin-Transformer-Object-Detection/venv.bak/
+
+# Spyder project settings
+Swin-Transformer-Object-Detection/.spyderproject
+Swin-Transformer-Object-Detection/.spyproject
+
+# Rope project settings
+Swin-Transformer-Object-Detection/.ropeproject
+
+# mkdocs documentation
+Swin-Transformer-Object-Detection/site
+
+# mypy
+Swin-Transformer-Object-Detection/.mypy_cache/
+
+Swin-Transformer-Object-Detection/data/
+Swin-Transformer-Object-Detection/data
+Swin-Transformer-Object-Detection/.vscode
+Swin-Transformer-Object-Detection/.idea
+Swin-Transformer-Object-Detection/.DS_Store
+
+# custom
+Swin-Transformer-Object-Detection/*.pkl
+Swin-Transformer-Object-Detection/*.pkl.json
+Swin-Transformer-Object-Detection/*.log.json
+Swin-Transformer-Object-Detection/work_dirs/
+
+# Pytorch
+Swin-Transformer-Object-Detection/*.pth
+Swin-Transformer-Object-Detection/*.py~
+Swin-Transformer-Object-Detection/*.sh~
