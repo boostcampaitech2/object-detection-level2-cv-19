@@ -1,5 +1,0 @@
-cityscapesscripts
-imagecorruptions
-pandas
-scipy
-sklearn
