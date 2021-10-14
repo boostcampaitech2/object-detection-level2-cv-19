@@ -1,5 +1,7 @@
 import json
 import argparse
+import os
+
 
 parser = argparse.ArgumentParser(description='Convert json to eff style (class label starts at 1)')
 parser.add_argument('--json_path', type=str, default='', help='json path')
@@ -13,6 +15,6 @@ for anno in annos['annotations']:
 
 for anno in annos['categories']:
     anno['id'] += 1
-    
-with open('eff_' + args.json_path, 'w') as f:
+
+with open(os.path.join(os.path.dirname(args.json_path), 'eff_' + os.path.basename(args.json_path)), 'w') as f:
     json.dump(annos, f)
