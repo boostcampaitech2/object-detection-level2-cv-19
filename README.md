@@ -14,10 +14,12 @@
 * pytorch==1.7.1
 * [Swin Transformer for Object Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)
 * [UniverseNet](https://github.com/shinya7y/UniverseNet)
+* [Yolo5](https://github.com/ultralytics/yolov5/)
 
 ## library getting_started
 * [Swin Transformer for Object Detection get_started](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md)
 * [UniverseNet get_started](https://github.com/shinya7y/UniverseNet/blob/master/docs/get_started.md)
+* [Yolo5](https://github.com/boostcampaitech2/object-detection-level2-cv-19/blob/jsg_yolo5/yolov5/README_original.md#quick-start-examples)
 
 # Dataset
 ## 재활용 쓰레기 데이터셋 / Aistages(Upstage) - CC BY 2.0
@@ -46,47 +48,5 @@ This dataset consist of image, classes and bboxes. The number of image is 9754, 
  └── test
 ```
 
-# Model
-| Model                       | mAP@50 |        |
-|-----------------------------|:------:|--------|
-| Swin-L (Baseline_           | 0.614  | config |
-| Swin-L + LabelSmoothing     | 0.614  | config |
-| Swin-L + Mixup              | 0.604  | config |
-| Swin-L + multi-scale + tta  | 0.666  | config |
-
-
-# Train Model
-## pre-trained model
-1. [Download Imagenet Pretrained weights](https://github.com/microsoft/Swin-Transformer)
-
-* Swin-L 224x224 resolution pretrained weight  
-```
-wget https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window7_224_22k.pth
-```
-
-* Swin-L 384x384 resolution pretrained weight  
-```
-wget https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth
-```
-
-2. Change config file if you are necessary
-  - data path
-  - pretrained weight path
-  - etc...
-
-3. Run train script
-you can train model usinf config file like below
-```
-cd library_path
-python tools/train ./my_config/CONFIG_NAME.py
-```
-for example,
-```
-cd Swin-Transformer-Object-Detection 
-python tools/train.py ./configs/level2p/cascade_rcnn_swin-l-p4-w7_fpn_ms_50.py
-```
-# Inference
-```
-python tools/test.py /path/to/config.py /path/to/weight.pth --format-only  --options "jsonfile_prefix=./results"
-```
-
+# Train Model & Inference
+## [Swin-Transformer-Object-Detection](./Swin-Transformer-Object-Detection/README.md)
