@@ -16,7 +16,7 @@
 * [UniverseNet](https://github.com/shinya7y/UniverseNet)
 * [Yolo5](https://github.com/ultralytics/yolov5/)
 
-## library getting_started
+## Library getting_started
 * [Swin Transformer for Object Detection get_started](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md)
 * [UniverseNet get_started](https://github.com/shinya7y/UniverseNet/blob/master/docs/get_started.md)
 * [Yolo5](https://github.com/boostcampaitech2/object-detection-level2-cv-19/blob/jsg_yolo5/yolov5/README_original.md#quick-start-examples)
