@@ -1,6 +1,6 @@
 
 
-#실행 환경 설정
+#실행 환경 설정 <RETURN>
 #다른 library들과의 충돌을 방지하게 위해서 conda environment를 사용하였습니다.
 conda create --n detection7 --clone detection
 conda activate detection7
