@@ -26,6 +26,30 @@
 * [YoloX](https://github.com/Megvii-BaseDetection/YOLOX#quick-start)
 )
 
+## Quick mmdetection-based library installation in Ustage Object Detecction server 
+* mmdetection 계열이 이미 깔려있는 서버환경에서 빠르게 다른 버전의 mmdetection-based library를 설치 할 수 있다.
+* upstage level2 p-stage object detection 서버 사용시 기존 환경을 클론한 환경을 만든다.
+```
+conda create --name detection_custom --clone detection  # 환경이 설치되어있는 detection 가상환경을 클론
+conda activate detection_custom
+```
+* mmdetection-based library installation
+    * mmdetection을 기반으로한 Swin Transformer for Object Detection 설치 예시
+```
+# Swin Transformer for Object Detection 설치
+# https://github.com/SwinTransformer/Swin-Transformer-Object-Detection
+git clone https://github.com/SwinTransformer/Swin-Transformer-Object-Detection.git
+cd Swin-Transformer-Object-Detection
+pip install -r requirements/build.txt
+pip install -v -e .
+cd ..
+# (optional) Apex설치
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --disable-pip-version-check --no-cache-dir ./
+cd ..
+```
+
 
 # Dataset
 ## 재활용 쓰레기 데이터셋 / Aistages(Upstage) - CC BY 2.0
