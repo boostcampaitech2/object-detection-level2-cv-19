@@ -124,3 +124,229 @@ Swin-Transformer-Object-Detection/*.py~
 */*/*/*/*.pyc
 */*/*/*/*/*.pyc
 */*/*/*/*/*/*.pyc
+
+notebooks/ipynb_checkpoints/
+
+
+# yolox git ignore
+### Linux ###
+yolox/*~
+
+# user experiments directory
+yolox/YOLOX_outputs/
+yolox/datasets/
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+yolox/.fuse_hidden*
+
+# KDE directory preferences
+yolox/.directory
+
+# Linux trash folder which might appear on any partition or disk
+yolox/.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+yolox/.nfs*
+
+### PyCharm ###
+# User-specific stuff
+yolox/.idea
+
+# CMake
+yolox/cmake-build-*/
+
+# Mongo Explorer plugin
+yolox/.idea/**/mongoSettings.xml
+
+# File-based project format
+yolox/*.iws
+
+# IntelliJ
+yolox/out/
+
+# mpeltonen/sbt-idea plugin
+yolox/.idea_modules/
+
+# JIRA plugin
+yolox/atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+yolox/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+yolox/com_crashlytics_export_strings.xml
+yolox/crashlytics.properties
+yolox/crashlytics-build.properties
+yolox/fabric.properties
+
+# Editor-based Rest Client
+yolox/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+yolox/.idea/caches/build_file_checksums.ser
+
+# JetBrains templates
+yolox/**___jb_tmp___
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+yolox/__pycache__/
+yolox/*.py[cod]
+yolox/*$py.class
+
+# C extensions
+yolox/*.so
+
+# Distribution / packaging
+yolox/.Python
+yolox/build/
+yolox/develop-eggs/
+yolox/dist/
+yolox/downloads/
+yolox/eggs/
+yolox/.eggs/
+yolox/lib/
+yolox/lib64/
+yolox/parts/
+yolox/sdist/
+yolox/var/
+yolox/wheels/
+yolox/pip-wheel-metadata/
+yolox/share/python-wheels/
+yolox/*.egg-info/
+yolox/.installed.cfg
+yolox/*.egg
+yolox/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+yolox/*.manifest
+yolox/*.spec
+
+# Installer logs
+yolox/pip-log.txt
+yolox/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+yolox/htmlcov/
+yolox/.tox/
+yolox/.nox/
+yolox/.coverage
+yolox/.coverage.*
+yolox/.cache
+yolox/nosetests.xml
+yolox/coverage.xml
+yolox/*.cover
+yolox/.hypothesis/
+yolox/.pytest_cache/
+
+# Translations
+yolox/*.mo
+yolox/*.pot
+
+# Django stuff:
+yolox/*.log
+yolox/local_settings.py
+yolox/db.sqlite3
+
+# Flask stuff:
+yolox/instance/
+yolox/.webassets-cache
+
+# Scrapy stuff:
+yolox/.scrapy
+
+# Sphinx documentation
+yolox/docs/_build/
+yolox/docs/build/
+
+# PyBuilder
+yolox/target/
+
+# Jupyter Notebook
+yolox/.ipynb_checkpoints
+
+# IPython
+yolox/profile_default/
+yolox/ipython_config.py
+
+# pyenv
+yolox/.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+yolox/celerybeat-schedule
+
+# SageMath parsed files
+yolox/*.sage.py
+
+# Environments
+yolox/.env
+yolox/.venv
+yolox/env/
+yolox/venv/
+yolox/ENV/
+yolox/env.bak/
+yolox/venv.bak/
+
+# Spyder project settings
+yolox/.spyderproject
+yolox/.spyproject
+
+# Rope project settings
+yolox/.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+yolox/.mypy_cache/
+yolox/.dmypy.json
+yolox/dmypy.json
+
+# Pyre type checker
+yolox/.pyre/
+
+### Vim ###
+# Swap
+yolox/[._]*.s[a-v][a-z]
+yolox/[._]*.sw[a-p]
+yolox/[._]s[a-rt-v][a-z]
+yolox/[._]ss[a-gi-z]
+yolox/[._]sw[a-p]
+
+# Session
+yolox/Session.vim
+
+# Temporary
+yolox/.netrwhist
+# Auto-generated tag files
+yolox/tags
+# Persistent undo
+yolox/[._]*.un~
+
+# output
+yolox/docs/api
+yolox/.code-workspace.code-workspace
+yolox/*.pkl
+yolox/*.npy
+yolox/*.pth
+yolox/*.onnx
+yolox/*.engine
+yolox/events.out.tfevents*
+
+# vscode
+yolox/*.code-workspace
+yolox/.vscode
+.vscode
+
+# vim
+yolox/.vim
+.vim
