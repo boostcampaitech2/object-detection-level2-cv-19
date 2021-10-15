@@ -1,3 +1,30 @@
+
+
+#실행 환경 설정
+#다른 library들과의 충돌을 방지하게 위해서 conda environment를 사용하였습니다.
+conda create --n detection7 --clone detection
+conda activate detection7
+
+pip install instaboostfast
+pip install albumentations>=0.3.2 --no-binary imgaug,albumentations
+pip install openmim
+mim install mmdet
+
+#train방법
+cd /opt/ml/detection/UniverseNet #UniverseNet이 있는 directory로 이동
+bash tools/dist_train.sh  configs/boostcamp/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco_test_vote.py  1  --work-dir work_0 --seed 0
+
+#inference 방법
+cd /opt/ml/detection/UniverseNet #UniverseNet이 있는 directory로 이동
+bash tools/dist_test.sh  configs/boostcamp_trash/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco_test_vote.py  pret/latest.pth    1 --eval bbox
+
+
+
+
+
+
+
+
 # UniverseNet
 
 UniverseNets are state-of-the-art detectors for universal-scale object detection.
