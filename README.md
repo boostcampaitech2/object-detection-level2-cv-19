@@ -56,6 +56,7 @@ This dataset consist of image, classes and bboxes. The number of image is 9754, 
 
 # Train Model & Inference
 * [Swin-Transformer-Object-Detection](./Swin-Transformer-Object-Detection/README.md)
+* [UniverseNet](./UniverseNet/README.md)
 * [EfficientDet (PyTorch)](efficientdet-pytorch/README.md)
 * [yolov5](yolov5/README.md)
 * [yolovX](yolox/README.md)
