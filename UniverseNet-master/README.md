@@ -1,24 +1,22 @@
 
+# 실행 환경 설정 <br />
+#다른 library들과의 충돌을 방지하게 위해서 conda environment를 사용하였습니다. <br />
+conda create --n detection7 --clone detection <br />
+conda activate detection7 <br />
 
-#실행 환경 설정 <RETURN><RETURN>
-#다른 library들과의 충돌을 방지하게 위해서 conda environment를 사용하였습니다.
-conda create --n detection7 --clone detection
-conda activate detection7
+pip install instaboostfast <br />
+pip install albumentations>=0.3.2 --no-binary imgaug,albumentations <br />
+pip install openmim <br />
+mim install mmdet <br />
 
-pip install instaboostfast
-pip install albumentations>=0.3.2 --no-binary imgaug,albumentations
-pip install openmim
-mim install mmdet
+# Train 방법 <br />
+cd /opt/ml/detection/UniverseNet #UniverseNet이 있는 directory로 이동 <br />
+bash tools/dist_train.sh  configs/boostcamp/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco_test_vote.py  1  --work-dir work_0 --seed 0 <br />
 
-#train방법
-cd /opt/ml/detection/UniverseNet #UniverseNet이 있는 directory로 이동
-bash tools/dist_train.sh  configs/boostcamp/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco_test_vote.py  1  --work-dir work_0 --seed 0
-
-#inference 방법
-cd /opt/ml/detection/UniverseNet #UniverseNet이 있는 directory로 이동
-bash tools/dist_test.sh  configs/boostcamp_trash/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco_test_vote.py  pret/latest.pth    1 --eval bbox
-
-
+# Inference 방법 <br />
+#submission_latest.csv 파일이 생성됩니다. <br />
+cd /opt/ml/detection/UniverseNet #UniverseNet이 있는 directory로 이동 <br />
+bash tools/dist_test.sh  configs/boostcamp_trash/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco_test_vote.py  pret/latest.pth    1 --eval bbox <br />
 
 
 
