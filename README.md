@@ -14,12 +14,18 @@
 * pytorch==1.7.1
 * [Swin Transformer for Object Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)
 * [UniverseNet](https://github.com/shinya7y/UniverseNet)
+* [EfficientDet (PyTorch)](https://github.com/rwightman/efficientdet-pytorch)
 * [Yolo5](https://github.com/ultralytics/yolov5/)
+* [YOloX](https://github.com/Megvii-BaseDetection/YOLOX/blob/main/setup.py)
 
 ## Library getting_started
 * [Swin Transformer for Object Detection get_started](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md)
 * [UniverseNet get_started](https://github.com/shinya7y/UniverseNet/blob/master/docs/get_started.md)
+* [EfficientDet (PyTorch)](https://github.com/rwightman/efficientdet-pytorch#environment-setup)
 * [Yolo5](https://github.com/boostcampaitech2/object-detection-level2-cv-19/blob/jsg_yolo5/yolov5/README_original.md#quick-start-examples)
+* [YoloX](https://github.com/Megvii-BaseDetection/YOLOX#quick-start)
+)
+
 
 # Dataset
 ## 재활용 쓰레기 데이터셋 / Aistages(Upstage) - CC BY 2.0
@@ -50,4 +56,9 @@ This dataset consist of image, classes and bboxes. The number of image is 9754, 
 
 # Train Model & Inference
 * [Swin-Transformer-Object-Detection](./Swin-Transformer-Object-Detection/README.md)
+* [EfficientDet (PyTorch)](efficientdet-pytorch/README.md)
 * [yolov5](yolov5/README.md)
+* [yolovX](yolox/README.md)
+
+
+<!-- clf? notebooks? -->
