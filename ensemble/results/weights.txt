@@ -1,0 +1,3 @@
+result_swin 1.2
+result_yolo 1.2
+result_effdet 1

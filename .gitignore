@@ -1,3 +1,6 @@
+# Datasets
+dataset/*
+
 # Byte-compiled / optimized / DLL files
 Swin-Transformer-Object-Detection/__pycache__/
 Swin-Transformer-Object-Detection/*.py[cod]
